@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Ass.js"></script>
+    <link rel="stylesheet" href="Ass.css">
+</head>
+<body>
+    <header>
+        <h1>RAJU GARI GADHI RESTAURANT</h1>
+        <p>Since 1990 <br>
+            Chaitanya Valley, Kommadhi Village,
+            Madhuruwada, Visakhaptanam, Andhra Pradesh.<br>
+            <B>LANDLINE:0891-22334455, 0891-1235456.</B><BR>
+                <B style="color: darkred;">FOR ORDERS PhNo: 9963155651.</B>
+            <h3>We are specialized In Biryani's</h3>
+            <h2>We Have Both Dinning And Take A Way</h2>
+        </p>
+    </header>
+    <div class="container">
+        <h1 style="text-align: center;">ORDER NOTE</h1>
+        <br>
+        <div class="input-area">
+          <input type="text" id="taskInput" placeholder="ADD NEW ITEM...">
+          <br>
+          <select>
+            <optgroup label="BIRYANIS">
+            <option value="Select Item">Select Item</option>
+            <option value="Chicken Biryani">Chicken Biryani</option>
+            <option value="Coke 250ml">Coke 250ml</option>
+            <option value="Chicken Fry Biryani">Chicken Fry Biryani</option>
+            <option value="Panner Biryani">Panner Biryani</option>
+            <option value="Mushroom Biryani">Mushroom Biryani</option>
+            <option value="Joint Biryani">Joint Biryani</option>
+            <option value="Family Pack Biryani">Family Pack Biryani</option>
+            <option value="Mandi Biryani">Mandi Biryani</option>
+            <option value="Hyderabad Biryani">Hyderabad Biryani</option>
+            <option value="Alpha Biryani">Alpha Biryani</option>
+            <option value="Veg Biryani">Veg Biryani</option>
+            <option value="Mughalai Biryani">Mughalai Biryani</option>
+            <option value="Prawns Biryani">Prawns Biryani</option>
+            <option value="Mutton Biryani">Mutton Biryani</option>
+            </optgroup>
+            <optgroup label="STARTERS">
+                <option value="Chilli Chicken">chilli Chicken</option>
+                <option value="Majestic Chicken">Majestic Chicken</option>
+                <option value="Chicken Pakoda">Chicken Pakoda</option>
+                <option value="Chicken Rolls">Chicken Rolls</option>
+                <option value="Chicken Kababs">Chicken Kababs</option>
+            </optgroup>
+            <optgroup label="SOFT DRINKS">
+                <option value="Sprite">Sprite<option value="ml">ml</option></option>
+                <option value="Thumps up">Thumps up</option>
+                <option value="Fanta">Fanta</option>
+                <option value="Limca">Limca</option>
+                <option value="Pepsi">Pepsi</option>
+                <option value="water bottle">Water bottle</option>
+            </optgroup>
+            <optgroup label="ICE CREAMS">
+                <option value="Chocolate 250ml">Chocolate</option>
+                <option value="ButterSckotch 250ml">ButterSctoch</option>
+                <option value="Vanilla 250ml">Vanilla 250ml</option>
+            </optgroup>
+
+        </select><br>
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+      </div>
+      <div class="Simha">
+        <button id="pavan" onclick="pavan();">ORDER NOW</button>
+        <BR>
+            <BR>
+    <span class=animate id="result" ></span>
+      </div>
+</body>
+</html>
